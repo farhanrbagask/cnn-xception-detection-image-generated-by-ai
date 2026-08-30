@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\DB;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Illuminate\Support\Facades\File;
 
+
 class TrainModelJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
@@ -107,7 +108,9 @@ class TrainModelJob implements ShouldQueue
 
             // Memeriksa apakah proses berhasil
             if (!$result->successful()) {
-                throw new ProcessFailedException($process);
+                throw new \RuntimeException(
+                    "Python gagal dijalankan:\n" . $result->errorOutput()
+                );
             }
 
             // Membersihkan output dari kode escape ANSI (warna terminal)
