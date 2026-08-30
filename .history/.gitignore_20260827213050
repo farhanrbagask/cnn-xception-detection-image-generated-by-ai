@@ -1,0 +1,27 @@
+# Laravel
+/vendor/
+.env
+/storage/*.key
+
+# Node
+/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Python generated files
+*.h5
+*.keras
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
