@@ -1,168 +1,168 @@
-# ==========================================
-# Laravel
-# ==========================================
+    # ==========================================
+    # Laravel
+    # ==========================================
 
-/vendor/
-/node_modules/
-/public/build/
-/public/hot
-/public/storage
+    /vendor/
+    /node_modules/
+    /public/build/
+    /public/hot
+    /public/storage
 
-# Environment
-.env
-.env.backup
-.env.production
-.env.local
-.env.*.local
+    # Environment
+    .env
+    .env.backup
+    .env.production
+    .env.local
+    .env.*.local
 
-# Laravel storage
-/storage/*.key
-/storage/app/*
-!/storage/app/.gitignore
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/testing/*
-/storage/framework/views/*
-/storage/logs/*
-!/storage/framework/.gitignore
-!/storage/framework/cache/.gitignore
-!/storage/framework/sessions/.gitignore
-!/storage/framework/testing/.gitignore
-!/storage/framework/views/.gitignore
-!/storage/logs/.gitignore
+    # Laravel storage
+    /storage/*.key
+    /storage/app/*
+    !/storage/app/.gitignore
+    /storage/framework/cache/*
+    /storage/framework/sessions/*
+    /storage/framework/testing/*
+    /storage/framework/views/*
+    /storage/logs/*
+    !/storage/framework/.gitignore
+    !/storage/framework/cache/.gitignore
+    !/storage/framework/sessions/.gitignore
+    !/storage/framework/testing/.gitignore
+    !/storage/framework/views/.gitignore
+    !/storage/logs/.gitignore
 
-# Laravel cache
-.phpunit.result.cache
-.phpunit.cache
+    # Laravel cache
+    .phpunit.result.cache
+    .phpunit.cache
 
-# ==========================================
-# Laravel Database
-# ==========================================
+    # ==========================================
+    # Laravel Database
+    # ==========================================
 
-# Database lokal
-/database/*.sqlite
-/database/*.sqlite-journal
+    # Database lokal
+    /database/*.sqlite
+    /database/*.sqlite-journal
 
-# ==========================================
-# Python
-# ==========================================
+    # ==========================================
+    # Python
+    # ==========================================
 
-# Python Virtual Environment
-/python/venv/
-/python/.venv/
-/venv/
-/.venv/
+    # Python Virtual Environment
+    /python/venv/
+    /python/.venv/
+    /venv/
+    /.venv/
 
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
+    # Python cache
+    __pycache__/
+    *.py[cod]
+    *$py.class
 
-# Python build/package
-*.egg
-*.egg-info/
-dist/
-build/
+    # Python build/package
+    *.egg
+    *.egg-info/
+    dist/
+    build/
 
-# Environment Python
-.python-version
+    # Environment Python
+    .python-version
 
-# ==========================================
-# Machine Learning / TensorFlow
-# ==========================================
+    # ==========================================
+    # Machine Learning / TensorFlow
+    # ==========================================
 
-# Trained models
-/python/model/*.h5
-/python/model/*.keras
-/python/model/*.hdf5
-/python/model/*.pb
-/python/model/saved_model/
+    # Trained models
+    /python/model/*.h5
+    /python/model/*.keras
+    /python/model/*.hdf5
+    /python/model/*.pb
+    /python/model/saved_model/
 
-# TensorFlow cache/checkpoints
-**/checkpoint
-**/checkpoints/
-*.ckpt
-*.index
-*.data-*
+    # TensorFlow cache/checkpoints
+    **/checkpoint
+    **/checkpoints/
+    *.ckpt
+    *.index
+    *.data-*
 
-# TensorBoard
-logs/
-tensorboard/
-.python_logs/
+    # TensorBoard
+    logs/
+    tensorboard/
+    .python_logs/
 
-# ==========================================
-# Dataset
-# ==========================================
+    # ==========================================
+    # Dataset
+    # ==========================================
 
-# Dataset lokal
-/python/dataset/
-/python/datasets/
-/dataset/
-/datasets/
+    # Dataset lokal
+    /python/dataset/
+    /python/datasets/
+    /dataset/
+    /datasets/
 
-# Image upload/training data
-*.jpg
-*.jpeg
-*.png
-*.webp
-*.bmp
-*.tif
-*.tiff
+    # Image upload/training data
+    *.jpg
+    *.jpeg
+    *.png
+    *.webp
+    *.bmp
+    *.tif
+    *.tiff
 
-# ==========================================
-# IDE / Editor
-# ==========================================
+    # ==========================================
+    # IDE / Editor
+    # ==========================================
 
-.vscode/
-.idea/
+    .vscode/
+    .idea/
 
-# VS Code local settings
-*.code-workspace
+    # VS Code local settings
+    *.code-workspace
 
-# ==========================================
-# OS
-# ==========================================
+    # ==========================================
+    # OS
+    # ==========================================
 
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-Desktop.ini
+    # Windows
+    Thumbs.db
+    Thumbs.db:encryptable
+    ehthumbs.db
+    Desktop.ini
 
-# macOS
-.DS_Store
+    # macOS
+    .DS_Store
 
-# Linux
-*~
+    # Linux
+    *~
 
-# ==========================================
-# Logs
-# ==========================================
+    # ==========================================
+    # Logs
+    # ==========================================
 
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+    *.log
+    npm-debug.log*
+    yarn-debug.log*
+    yarn-error.log*
 
-# ==========================================
-# Temporary / Backup files
-# ==========================================
+    # ==========================================
+    # Temporary / Backup files
+    # ==========================================
 
-*.tmp
-*.temp
-*.bak
-*.swp
-*.swo
-*.orig
+    *.tmp
+    *.temp
+    *.bak
+    *.swp
+    *.swo
+    *.orig
 
-# ==========================================
-# Composer
-# ==========================================
+    # ==========================================
+    # Composer
+    # ==========================================
 
-composer.phar
+    composer.phar
 
-# ==========================================
-# NPM
-# ==========================================
+    # ==========================================
+    # NPM
+    # ==========================================
 
-.npm/
+    .npm/
