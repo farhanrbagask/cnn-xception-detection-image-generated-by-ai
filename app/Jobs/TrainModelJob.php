@@ -12,7 +12,6 @@ use App\Models\TrainingResult;
 use App\Models\Image;
 use Illuminate\Support\Facades\Process;
 use Illuminate\Support\Facades\DB;
-use Symfony\Component\Process\Exception\ProcessFailedException;
 use Illuminate\Support\Facades\File;
 
 
